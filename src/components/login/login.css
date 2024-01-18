@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+#login {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 60px 0;
+  font-family: "Rubik", sans-serif;
+  /* background-color: aliceblue; */
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.websitLogo h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.websitLogo h1 span {
+  color: #ec420f;
+}
+
+.lofinallInput {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 14px;
+}
+
+.loginFrom {
+  background-color: #fff;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 12px 6px rgba(0, 0, 0, 0.06);
+}
+
+.loginFrom h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loginFrom .input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.loginFrom .input input {
+  width: 100%;
+  border: 1px solid #9999995d;
+  outline: none;
+  padding: 10px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.passwordInput {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.subPassInput {
+  /* width: 100%; */
+  border: 1px solid #9999995d;
+  outline: none;
+  padding: 10px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.passwordInput input {
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  width: 94%;
+  outline: none;
+  font-size: 16px;
+}
+.eay {
+  display: inline;
+  cursor: pointer;
+}
+
+.loginFrom button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background: #ec420f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.forgatPasswordLink {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #3333333f;
+  padding-bottom: 10px;
+}
+
+.forgatPasswordLink a {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.forgatPasswordLink a:hover {
+  text-decoration: underline;
+}
+
+#bordweHr {
+  color: #000000;
+  background-color: #000000;
+}
+
+.createAcount {
+  margin: 10px 0;
+}
+
+.createAcount a {
+  background-color: #267abe;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+}

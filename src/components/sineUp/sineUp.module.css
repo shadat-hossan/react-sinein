@@ -1,0 +1,96 @@
+#sineUp {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 60px 0;
+  font-family: "Rubik", sans-serif;
+  /* background-color: aliceblue; */
+}
+
+.sineUpContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.websitSineUp h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.websitSineUp h1 span {
+  color: #ec420f;
+}
+
+.sineUpFrom {
+  background-color: #fff;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 12px 6px rgba(0, 0, 0, 0.06);
+}
+
+.sineUpFrom h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sinfinallInput {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 14px;
+}
+
+.sineUpFrom .input {
+  width: 100%;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.sineUpFrom .input input {
+  width: 100%;
+  border: 1px solid #9999995d;
+  outline: none;
+  padding: 10px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.passwordInput {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.subPassInput {
+  border: 1px solid #9999995d;
+  outline: none;
+  padding: 10px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.subPassInput input {
+  width: 94%;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.qustyionExpart {
+  margin-bottom: 10px;
+}
